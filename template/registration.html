@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/sample.css">
+    <link rel="stylesheet" href="../css/flag-icon.css">
+    <title>登録画面</title>
+</head>
+<body>
+    <!-- ヘッダ -->
+    <header>
+        <h1>
+            <a>タイトル</a>
+        </h1>
+        <ul>
+            <li>
+                ホーム
+            </li>
+            <li>
+                マイページ
+            </li>
+            <li>
+                お気に入り
+            </li>
+    </header>
+    
+    <!-- コンテンツ -->
+    <div class="subheading">登録</div>
+    <table>
+        <tr>
+            <th>
+                購入日
+            </th>
+            <td>
+                <input id="date" type="text">
+            </td>
+        </tr>
+        <tr>
+            <th>
+                購入店舗
+            </th>
+            <td>
+                <input id="store" type="text">
+            </td>
+        </tr>
+        <tr>
+            <th>
+                産出国
+            </th>
+            <td>
+                <input id="country" type="text">
+            </td>
+        </tr>
+        <tr>
+            <th>
+                グラム数
+            </th>
+            <td>
+                <input id="gram" type="text">
+            </td>
+        </tr>
+        <!-- <tr>
+            <th>
+                産出地域
+            </th>
+            <td>
+                <input type="text">
+            </td>
+        </tr> -->
+        <button id="registrationBtn">登録</button>
+        <button id="createBtn">テーブル生成</button>
+        <button id="alertBtn">Cookie確認</button>
+        <button id="deleteBtn">全削除</button>
+        <button id="clearBtn">クリア</button>
+    </table>
+
+    <!-- レコード -->
+    <div class="list">
+        <div class="card">
+            <span class="date">2022/01/02</span>
+            <a class="country">エチオピア</a>
+            <div class="flag-icon fi-cx"></div>
+        </div>
+    </div>
+    
+    <!-- フッタ -->
+    <footer>
+        <p>© All rights reserved by shun endo.</p>
+    </footer>
+    <!-- Script -->
+    <script type="text/javascript" src="../script/registration.js"></script>
+</body>
+</html>

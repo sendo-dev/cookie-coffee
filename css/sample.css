@@ -1,0 +1,96 @@
+/*****全体**********/
+body {
+    font-family: Meiryo, メイリオ, "Hiragino Kaku Gothic Pro W3","MS P Gothic", sans-serif;
+    background-color: #E8E6E0;
+    height: calc(100vh - 16px);
+    font-weight: 300;
+}
+/*****ヘッダ**********/
+header {
+    text-align: center;
+    background-color: #210000;
+    color: #FFF;
+    user-select: none;
+}
+header > h1 {
+    margin: 0;
+}
+header > ul {
+    margin-block-start: 0px;
+    padding-inline-start: 0%;
+}
+header > ul > li {
+    display: inline-block;   
+    width: 30%;
+    padding: 5px 0px;
+    border-radius: 4px;
+}
+header > ul > li:hover{
+    background-color: #330000;
+}
+
+/*****内容**********/
+/* 画面ごとに分けたほうが良いのでは？？
+　　
+/* #tmp {
+    height: calc(100vh - 300px);
+    background-color: E8E6E0;
+} */
+.subheading {
+    margin: 15px 0px 10px 0px;
+    border-bottom: 1px solid #000;
+}
+.subcontent {
+    height: 100px;
+}
+th {
+    width: 20%;
+    font-size: 15px;
+}
+td {
+    width: 80%;
+}
+.list {
+    margin-top: 50px;
+    padding: 15px;
+    /* background-color: rebeccapurple; */
+}
+.card {
+    padding: 10px;
+    background-color: wheat;
+    border-radius: 15px;
+}
+.date {
+    width: 50px;
+}
+
+/*****フッタ**********/
+footer {
+    position: fixed;
+    bottom: 10px;
+    height: 82px;
+    width: calc(100vw - 1em);
+    background-color: #210000;
+    color: #FFF;
+    font-size: 15px;
+}
+footer > p {
+    text-align: center;
+    padding: 30px 0px;
+    margin: 0px;
+}
+
+/*****コンテナ**********/
+.outer{
+    position: relative;
+}
+.inner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    color: red;
+    height: 500px;
+    width: 500px;
+}
